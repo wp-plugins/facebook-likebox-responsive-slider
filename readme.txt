@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The plugin add a modern, elegant and animated Facebook Like Box to your Home Page with user photos. Best way to get more likes directly on your website.
+The plugin add a modern, elegant Facebook Like Box to your Home Page with user photos. Best way to get more likes directly on your website.
 
 == Description ==
 
