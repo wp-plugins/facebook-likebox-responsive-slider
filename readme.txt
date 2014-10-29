@@ -12,7 +12,7 @@ The plugin add a modern, elegant and animated Facebook Like Box to your Home Pag
 
 == Description ==
 
-[More Details](http://sympies.com/free-jquery-wordpress-signup-form/) | [Pro Version](http://sympies.com/simple-signup-popup/) | [WordPress & Jquery Plugins](http://innovativeplugins.com)
+[Pro Version](http://sympies.com/facebook-comment-slider/) | [WordPress & Jquery Plugins](http://innovativeplugins.com)
 
  Facebook LikeBox Slider helps you to get more likes for your Facebook Page with displaying a responsive like box on your home page of your website. Simple to use and it has a lot of customization options. Includes themes, style (dark & light), option to force users to like your site and unlock the content, you can find much more available settings.
  
