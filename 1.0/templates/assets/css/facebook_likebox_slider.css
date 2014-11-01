@@ -1,0 +1,440 @@
+.autocommenter_default_light
+{
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-radius: 4px;
+	width: 35%;
+	box-shadow: inset 1px 6px 12px #CCCCCC, inset -1px -10px 5px #CCCCCC, 1px 2px 1px black;
+	-o-box-shadow: inset 1px 6px 12px #CCCCCC, inset -1px -10px 5px #CCCCCC, 1px 2px 1px black;
+	-webkit-box-shadow: inset 1px 6px 12px #CCCCCC, inset -1px -10px 5px #CCCCCC, 1px 2px 1px black;
+	-moz-box-shadow: inset 1px 6px 12px #CCCCCC, inset -1px -10px 5px #CCCCCC, 1px 2px 1px black;
+	overflow: hidden;
+}
+
+.autocommenter_default_dark
+{
+	background-color: rgb(51, 51, 51);
+	border: solid #5D5D5D;
+	border-radius: 4px;
+	width: 35%;
+	box-shadow: inset 1px 6px 12px #5D5D5D, inset -1px -10px 5px #5D5D5D, 1px 2px 1px black;
+	-o-box-shadow: inset 1px 6px 12px #5D5D5D, inset -1px -10px 5px #5D5D5D, 1px 2px 1px black;
+	-webkit-box-shadow: inset 1px 6px 12px #5D5D5D, inset -1px -10px 5px #5D5D5D, 1px 2px 1px black;
+	-moz-box-shadow: inset 1px 6px 12px #5D5D5D, inset -1px -10px 5px #5D5D5D, 1px 2px 1px black;
+	overflow: hidden;
+}
+
+.autocommenter_minimal_light
+{
+	background-color: #fff;
+	border: 1px solid #CCCCCC;
+	border-radius: 0px;
+	width: 35%;
+	box-shadow: inset 1px 6px 12px #fff, inset -1px -10px 5px #fff, 1px 2px 1px #fff;
+	-o-box-shadow: inset 1px 6px 12px #fff, inset -1px -10px 5px #fff, 1px 2px 1px #fff;
+	-webkit-box-shadow: inset 1px 6px 12px #fff, inset -1px -10px 5px #fff, 1px 2px 1px #fff;
+	-moz-box-shadow: inset 1px 6px 12px #fff, inset -1px -10px 5px #fff, 1px 2px 1px #fff;
+	overflow: hidden;
+}
+
+.autocommenter_minimal_dark
+{
+	background-color: rgb(51, 51, 51);
+	border: 1px solid #fff;
+	border-radius: 0px;
+	width: 35%;
+	box-shadow: inset 1px 6px 12px #333, inset -1px -10px 5px #333, 1px 2px 1px #333;
+	-o-box-shadow: inset 1px 6px 12px #333, inset -1px -10px 5px #333, 1px 2px 1px #333;
+	-webkit-box-shadow: inset 1px 6px 12px #333, inset -1px -10px 5px #333, 1px 2px 1px #333;
+	-moz-box-shadow: inset 1px 6px 12px #333, inset -1px -10px 5px #333, 1px 2px 1px #333;
+	overflow: hidden;
+}
+
+.autocommenter_top 
+{
+	margin-top: 40px;
+	z-index: 10099;
+}
+
+.autocommenter_bottom
+{
+	margin-bottom: 40px;
+	z-index: 10099;
+	display: flex-box;
+}
+
+.autocommenter
+{
+	position: fixed;
+	z-index: 11000;
+	width: 35%;
+	display: flex-box;
+	height: 80%;
+}
+
+.autocommenter_inside
+{
+	width: 100%;
+	height: 100%;
+	box-sizing: initial;
+}
+
+.autocommenter .autocommenter_line
+{
+	height:20px;
+	width: 100%;
+	font-size: 100%;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.autocommenter .autocommenter_line .message_light
+{
+	font-size: 100%;
+	text-align: left;
+	padding-left: 10px;
+	color: #000000;
+}
+
+.autocommenter .autocommenter_line .message_dark
+{
+	font-size: 100%;
+	text-align: left;
+	padding-left: 10px;
+	color: #FFFFFF;
+}
+
+.autocommenter .autocommenter_line a
+{
+	text-decoration: none;
+	font-weight:bold;
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+	-webkit-transition: all .2s ease-in;
+   -moz-transition: all .2s ease-in;
+   -o-transition: all .2s ease-in;
+   -ms-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	opacity: 0.5;
+}
+
+.autocommenter .autocommenter_line a:hover
+{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+.fb_ac_counter {
+}
+
+.fb_edge_widget_with_comment span.fb_edge_comment_widget 
+{
+	left: 10px !important;
+	z-index: 11000;
+}
+.fb-like {
+	position: absolute;
+	z-index: 11001;
+}
+
+.fb_iframe_widget span 
+{
+	overflow: hidden;
+	padding: 10px;
+}
+
+.fb-like span {
+	padding: 0px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.left_side_fbbox .fb_iframe_widget span 
+{
+
+}
+.left_side_fbbox .jspVerticalBar .jspArrowUp {
+    background-position: 1px 0;
+}
+.left_side_fbbox .jspVerticalBar .jspArrowDown {
+    background-position: -38px 0;
+}
+
+.left_side_fbbox .jspVerticalBar
+{
+	right: 0px;
+}
+
+.right_side_fbbox .jspVerticalBar
+{
+	left: 0px;
+}
+
+.fbcommentbox {
+	overflow: hidden;
+	display: flex-box;
+	height: 90%;
+	width: 100%;
+}
+
+.autocommenter h2 {
+	position: absolute;
+	z-index:11002;
+	cursor: pointer;
+	padding: 0px;
+	margin: 0px;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.icon_large {
+	width: 67px;
+	height: 128px;
+	background-size: 67px 128px;
+}
+
+.icon_medium {
+	width: 40px;
+	height: 77px;
+	background-size: 40px 77px;
+}
+
+.icon_small {
+	width: 20px;
+	height: 39px;
+	background-size: 20px 39px;
+}
+
+.fbicon_left {
+	background-image:url('../img/fbcomments_left.png');
+}
+
+.fbicon_right {
+	background-image:url('../img/fbcomments_right.png');
+}
+
+.fbicon_like_left {
+	background-image:url('../img/fbcomments_like_left.png');
+}
+
+.fbicon_like_right {
+	background-image:url('../img/fbcomments_like_right.png');
+}
+
+.fbicon_follow_left {
+	background-image:url('../img/fbcomments_follow_left.png');
+}
+
+.fbicon_follow_right {
+	background-image:url('../img/fbcomments_follow_right.png');
+}
+
+#bglock {
+	position: fixed;
+	display:none;
+	top:0px;
+	left:0px;
+	z-index:9998;
+	width:100%;
+	height:100%;
+	background:#000000;
+}
+
+@-webkit-keyframes heartbeat_effect {
+	0% { -webkit-transform: scale(1); }
+	50% { -webkit-transform: scale(0.95); }
+	100% { -webkit-transform: scale(1); }
+}
+
+.heartbeat
+{
+	-webkit-animation-name: heartbeat_effect;
+	-webkit-animation-duration: 500ms;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes shake_effect {
+	0% { -webkit-transform: margin-top:-10px; }
+	50% { -webkit-transform: margin-top:0px; }
+	100% { -webkit-transform: margin-top:10px; }
+}
+
+@-moz-keyframes shake_effect {
+	0% { -moz-transform: margin-top:-10px; }
+	50% { -moz-transform: margin-top:0px; }
+	100% { -moz-transform: margin-top:10px; }
+}
+
+@-o-keyframes shake_effect {
+	0% { -o-transform: margin-top:-10px; }
+	50% { -o-transform: margin-top:0px; }
+	100% { -o-transform: margin-top:10px; }
+}
+
+@-ms-keyframes shake_effect {
+	0% { -ms-transform: margin-top:-10px; }
+	50% { -ms-transform: margin-top:0px; }
+	100% { -ms-transform: margin-top:10px; }
+}
+
+@keyframes shake_effect {
+	0% { transform: margin-top:-10px; }
+	50% { transform: margin-top:0px; }
+	100% { transform: margin-top:10px; }
+}
+
+.shake
+{
+	-webkit-animation-name: shake_effect;
+	-webkit-animation-duration: 500ms;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: shake_effect;
+	-moz-animation-duration: 500ms;
+	-moz-transform-origin:50% 50%;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-o-animation-name: shake_effect;
+	-o-animation-duration: 500ms;
+	-o-transform-origin:50% 50%;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: linear;
+	-ms-animation-name: shake_effect;
+	-ms-animation-duration: 500ms;
+	-ms-transform-origin:50% 50%;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	animation-name: shake_effect;
+	animation-duration: 500ms;
+	transform-origin:50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.fb-like-box, .fb-comments {
+    background-image: url(../img/preloader.gif);
+    background-position: center 150px;
+    background-repeat: no-repeat;
+}
+.fb-like-box[fb-xfbml-state="rendered"], .fb-comments[fb-xfbml-state="rendered"] {
+    background-image: none;
+	height: auto;
+}
+
+.close_facebook_comment_slider
+{
+	width: 24px;
+	height: 24px;
+	background: url('../img/close.png');
+}
+
+.jspContainer {
+    overflow: hidden;
+    position: relative;
+}
+.jspPane {
+    position: relative;
+}
+.jspVerticalBar {
+    background: none repeat scroll 0 0 transparent;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    width: 19px;
+	margin-top: 10%;
+}
+.jspHorizontalBar {
+	display: none;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    width: 98%;
+}
+.jspVerticalBar *, .jspHorizontalBar * {
+    margin: 0;
+    padding: 0;
+}
+.jspCap {
+    display: none;
+}
+.jspHorizontalBar .jspCap {
+    float: left;
+}
+.jspTrack {
+    background: none repeat scroll 0 0 transparent;
+    position: relative;
+	cursor: pointer;
+}
+.jspDrag {
+    background: none repeat scroll 0 0 transparent;
+    cursor: pointer;
+    left: 0;
+    position: relative;
+    top: 0;
+}
+.jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag {
+    float: left;
+    height: 98%;
+}
+.jspDragTop {
+    background: none repeat scroll 0 0 #999999;
+    height: 100%;
+    margin: 0 auto;
+    width: 2px;
+}
+.jspArrow {
+    background: none repeat scroll 0 0 #50506D;
+    cursor: pointer;
+    display: block;
+    text-indent: -20000px;
+}
+.jspArrow.jspDisabled {
+    background: none repeat scroll 0 0 #80808D;
+    cursor: default;
+}
+.jspVerticalBar .jspArrow {
+    display: block;
+    background: url("../img/7up.png") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    width: 19px;
+}
+.jspVerticalBar .jspArrowUp {
+    background-position: 0 0;
+}
+.jspVerticalBar .jspArrowDown {
+    background-position: -39px 0;
+}
+.jspHorizontalBar .jspArrow {
+    display: none;
+    float: left;
+    height: 100%;
+    width: 16px;
+}
+.jspVerticalBar .jspArrow:focus {
+    outline: medium none;
+}
+.jspCorner {
+    background: none repeat scroll 0 0 #EEEEF4;
+    float: left;
+    height: 98%;
+}
+* html .jspCorner {
+    margin: 0 -3px 0 0;
+}
+#powered
+{
+	margin-left: 10px;
+	font-size: 10px;
+}
