@@ -129,45 +129,49 @@ if(!class_exists('facebook_likebox_slider'))
 		**/
 		public static function deactivate()
 		{
-			unregister_setting('facebook_comment_slider-group', 'setting_appid');
-			unregister_setting('facebook_comment_slider-group', 'setting_adminid');
-			unregister_setting('facebook_comment_slider-group', 'setting_fbsitename');
-			unregister_setting('facebook_comment_slider-group', 'setting_home_page_style');
-			unregister_setting('facebook_comment_slider-group', 'setting_hide_icon');
-			unregister_setting('facebook_comment_slider-group', 'setting_lock_screen');
-			unregister_setting('facebook_comment_slider-group', 'setting_closeable');
-			unregister_setting('facebook_comment_slider-group', 'setting_timer');
-			unregister_setting('facebook_comment_slider-group', 'setting_transparency');
-			unregister_setting('facebook_comment_slider-group', 'setting_display_once_for_same_user');
-			unregister_setting('facebook_comment_slider-group', 'setting_disable_on_mobile');
-			unregister_setting('facebook_comment_slider-group', 'setting_display_only_allowed_pages');
-			unregister_setting('facebook_comment_slider-group', 'setting_localization');
-			unregister_setting('facebook_comment_slider-group', 'setting_scheme');
-			unregister_setting('facebook_comment_slider-group', 'setting_skin');
-			unregister_setting('facebook_comment_slider-group', 'setting_hide_alreadyliked');
-			unregister_setting('facebook_comment_slider_comment_box-group', 'setting_vertical_distance1');
-			unregister_setting('facebook_comment_slider_comment_box-group', 'setting_icon_size1');
-			unregister_setting('facebook_comment_slider_comment_box-group', 'setting_auto_open1');
-			unregister_setting('facebook_comment_slider_comment_box-group', 'setting_message');
-			unregister_setting('facebook_comment_slider_comment_box-group', 'setting_specified_page1');
-			unregister_setting('facebook_comment_slider_comment_box-group', 'setting_direction1');
-			unregister_setting('facebook_comment_slider_comment_box-group', 'setting_no_post_to_show');
-			unregister_setting('facebook_comment_slider_comment_box-group', 'setting_icon_url1');
-			unregister_setting('facebook_comment_slider_comment_box-group', 'setting_shake1');
-			unregister_setting('facebook_comment_slider_like_box-group', 'setting_vertical_distance2');
-			unregister_setting('facebook_comment_slider_like_box-group', 'setting_icon_size2');
-			unregister_setting('facebook_comment_slider_like_box-group', 'setting_auto_open2');
-			unregister_setting('facebook_comment_slider_like_box-group', 'setting_likebox_message');
-			unregister_setting('facebook_comment_slider_like_box-group', 'setting_direction2');
-			unregister_setting('facebook_comment_slider_like_box-group', 'setting_icon_url2');
-			unregister_setting('facebook_comment_slider_like_box-group', 'setting_shake2');
-			unregister_setting('facebook_comment_slider_post_box-group', 'setting_vertical_distance3');
-			unregister_setting('facebook_comment_slider_post_box-group', 'setting_icon_size3');
-			unregister_setting('facebook_comment_slider_post_box-group', 'setting_auto_open3');
-			unregister_setting('facebook_comment_slider_post_box-group', 'setting_postbox_message');
-			unregister_setting('facebook_comment_slider_post_box-group', 'setting_direction3');
-			unregister_setting('facebook_comment_slider_post_box-group', 'setting_icon_url3');
-			unregister_setting('facebook_comment_slider_post_box-group', 'setting_shake3');
+			if (get_option('setting_keep_settings')!='on')
+			{
+				unregister_setting('facebook_comment_slider-group', 'setting_appid');
+				unregister_setting('facebook_comment_slider-group', 'setting_adminid');
+				unregister_setting('facebook_comment_slider-group', 'setting_fbsitename');
+				unregister_setting('facebook_comment_slider-group', 'setting_home_page_style');
+				unregister_setting('facebook_comment_slider-group', 'setting_hide_icon');
+				unregister_setting('facebook_comment_slider-group', 'setting_lock_screen');
+				unregister_setting('facebook_comment_slider-group', 'setting_closeable');
+				unregister_setting('facebook_comment_slider-group', 'setting_timer');
+				unregister_setting('facebook_comment_slider-group', 'setting_transparency');
+				unregister_setting('facebook_comment_slider-group', 'setting_display_once_for_same_user');
+				unregister_setting('facebook_comment_slider-group', 'setting_disable_on_mobile');
+				unregister_setting('facebook_comment_slider-group', 'setting_display_only_allowed_pages');
+				unregister_setting('facebook_comment_slider-group', 'setting_localization');
+				unregister_setting('facebook_comment_slider-group', 'setting_scheme');
+				unregister_setting('facebook_comment_slider-group', 'setting_skin');
+				unregister_setting('facebook_comment_slider-group', 'setting_hide_alreadyliked');
+				unregister_setting('facebook_comment_slider-group', 'setting_keep_settings');
+				unregister_setting('facebook_comment_slider_comment_box-group', 'setting_vertical_distance1');
+				unregister_setting('facebook_comment_slider_comment_box-group', 'setting_icon_size1');
+				unregister_setting('facebook_comment_slider_comment_box-group', 'setting_auto_open1');
+				unregister_setting('facebook_comment_slider_comment_box-group', 'setting_message');
+				unregister_setting('facebook_comment_slider_comment_box-group', 'setting_specified_page1');
+				unregister_setting('facebook_comment_slider_comment_box-group', 'setting_direction1');
+				unregister_setting('facebook_comment_slider_comment_box-group', 'setting_no_post_to_show');
+				unregister_setting('facebook_comment_slider_comment_box-group', 'setting_icon_url1');
+				unregister_setting('facebook_comment_slider_comment_box-group', 'setting_shake1');
+				unregister_setting('facebook_comment_slider_like_box-group', 'setting_vertical_distance2');
+				unregister_setting('facebook_comment_slider_like_box-group', 'setting_icon_size2');
+				unregister_setting('facebook_comment_slider_like_box-group', 'setting_auto_open2');
+				unregister_setting('facebook_comment_slider_like_box-group', 'setting_likebox_message');
+				unregister_setting('facebook_comment_slider_like_box-group', 'setting_direction2');
+				unregister_setting('facebook_comment_slider_like_box-group', 'setting_icon_url2');
+				unregister_setting('facebook_comment_slider_like_box-group', 'setting_shake2');
+				unregister_setting('facebook_comment_slider_post_box-group', 'setting_vertical_distance3');
+				unregister_setting('facebook_comment_slider_post_box-group', 'setting_icon_size3');
+				unregister_setting('facebook_comment_slider_post_box-group', 'setting_auto_open3');
+				unregister_setting('facebook_comment_slider_post_box-group', 'setting_postbox_message');
+				unregister_setting('facebook_comment_slider_post_box-group', 'setting_direction3');
+				unregister_setting('facebook_comment_slider_post_box-group', 'setting_icon_url3');
+				unregister_setting('facebook_comment_slider_post_box-group', 'setting_shake3');
+			}
 		}
 		
 		/**
@@ -175,45 +179,49 @@ if(!class_exists('facebook_likebox_slider'))
 		**/
 		public static function uninstall()
 		{
-			delete_option('setting_appid');
-			delete_option('setting_adminid');
-			delete_option('setting_fbsitename');
-			delete_option('setting_home_page_style');
-			delete_option('setting_hide_icon');
-			delete_option('setting_lock_screen');
-			delete_option('setting_closeable');
-			delete_option('setting_timer');
-			delete_option('setting_transparency');
-			delete_option('setting_display_once_for_same_user');
-			delete_option('setting_disable_on_mobile');
-			delete_option('setting_display_only_allowed_pages');
-			delete_option('setting_localization');
-			delete_option('setting_scheme');
-			delete_option('setting_skin');
-			delete_option('setting_hide_alreadyliked');
-			delete_option('setting_vertical_distance1');
-			delete_option('setting_icon_size1');
-			delete_option('setting_auto_open1');
-			delete_option('setting_message');
-			delete_option('setting_specified_page1');
-			delete_option('setting_direction1');
-			delete_option('setting_no_post_to_show');
-			delete_option('setting_icon_url1');
-			delete_option('setting_shake1');
-			delete_option('setting_vertical_distance2');
-			delete_option('setting_icon_size2');
-			delete_option('setting_auto_open2');
-			delete_option('setting_likebox_message');
-			delete_option('setting_direction2');
-			delete_option('setting_icon_url2');
-			delete_option('setting_shake2');
-			delete_option('setting_vertical_distance3');
-			delete_option('setting_icon_size3');
-			delete_option('setting_auto_open3');
-			delete_option('setting_postbox_message');
-			delete_option('setting_direction3');
-			delete_option('setting_icon_url3');
-			delete_option('setting_shake3');
+			if (get_option('setting_keep_settings')!='on')
+			{
+				delete_option('setting_appid');
+				delete_option('setting_adminid');
+				delete_option('setting_fbsitename');
+				delete_option('setting_home_page_style');
+				delete_option('setting_hide_icon');
+				delete_option('setting_lock_screen');
+				delete_option('setting_closeable');
+				delete_option('setting_timer');
+				delete_option('setting_transparency');
+				delete_option('setting_display_once_for_same_user');
+				delete_option('setting_disable_on_mobile');
+				delete_option('setting_display_only_allowed_pages');
+				delete_option('setting_localization');
+				delete_option('setting_scheme');
+				delete_option('setting_skin');
+				delete_option('setting_hide_alreadyliked');
+				delete_option('setting_keep_settings');
+				delete_option('setting_vertical_distance1');
+				delete_option('setting_icon_size1');
+				delete_option('setting_auto_open1');
+				delete_option('setting_message');
+				delete_option('setting_specified_page1');
+				delete_option('setting_direction1');
+				delete_option('setting_no_post_to_show');
+				delete_option('setting_icon_url1');
+				delete_option('setting_shake1');
+				delete_option('setting_vertical_distance2');
+				delete_option('setting_icon_size2');
+				delete_option('setting_auto_open2');
+				delete_option('setting_likebox_message');
+				delete_option('setting_direction2');
+				delete_option('setting_icon_url2');
+				delete_option('setting_shake2');
+				delete_option('setting_vertical_distance3');
+				delete_option('setting_icon_size3');
+				delete_option('setting_auto_open3');
+				delete_option('setting_postbox_message');
+				delete_option('setting_direction3');
+				delete_option('setting_icon_url3');
+				delete_option('setting_shake3');
+			}
 		}
 		
 		function add_meta_appid()

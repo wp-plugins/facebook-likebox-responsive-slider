@@ -53,6 +53,7 @@ if(!class_exists('facebook_likebox_slider_settings'))
 			register_setting('facebook_likebox_slider-group', 'setting_skin');
 			register_setting('facebook_likebox_slider-group', 'setting_hide_alreadyliked');
 			register_setting('facebook_likebox_slider-group', 'setting_disable_on_mobile');
+			register_setting('facebook_likebox_slider-group', 'setting_keep_settings');
 				// add your settings section
 				add_settings_section('facebook_likebox_slider-section', '', array(&$this, 'settings_section_facebook_likebox_slider'), 'facebook_likebox_slider');
 			// add your setting's fields
@@ -69,6 +70,7 @@ if(!class_exists('facebook_likebox_slider_settings'))
 			add_settings_field('facebook_likebox_slider-setting_skin', 'Skin', array(&$this, 'settings_field_input_select'), 'facebook_likebox_slider', 'facebook_likebox_slider-section', array('field' => 'setting_skin', 'field_value' => '', 'other' => 'skin'));
 			add_settings_field('facebook_likebox_slider-setting_disable_on_mobile', 'Disable on mobile', array(&$this, 'settings_field_input_radio'), 'facebook_likebox_slider', 'facebook_likebox_slider-section', array('field' => 'setting_disable_on_mobile', 'field_value' => '', 'options' => array("On"=>"on","Off"=>"off"), 'other' => ''));
 			add_settings_field('facebook_likebox_slider-setting_hide_alreadyliked', 'Hide Likebox for already Liked', array(&$this, 'settings_field_input_radio'), 'facebook_likebox_slider', 'facebook_likebox_slider-section', array('field' => 'setting_hide_alreadyliked', 'field_value' => '', 'options' => array("On"=>"on","Off"=>"off"), 'other' => ''));
+			add_settings_field('facebook_likebox_slider-setting_keep_settings', 'Keep Settings', array(&$this, 'settings_field_input_radio'), 'facebook_likebox_slider', 'facebook_likebox_slider-section', array('field' => 'setting_keep_settings', 'field_value' => '', 'options' => array("On"=>"on","Off"=>"off"), 'other' => ''));
 						
 			// register your custom settings - comment box settings
 			register_setting('facebook_likebox_slider_comment_box-group', 'setting_vertical_distance1');
