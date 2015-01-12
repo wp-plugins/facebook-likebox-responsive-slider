@@ -349,7 +349,7 @@ check_shortcodes();
 		{
 			var exdate=new Date();
 			exdate.setDate(exdate.getDate() + parseInt(dduntil));
-			var c_value=escape(value) + ((dduntil==null) ? "" : "; expires="+exdate.toUTCString());
+			var c_value=escape(value) + ((dduntil==null) ? "" : "; expires="+exdate.toUTCString()) + "; path=/";
 			document.cookie=c_name + "=" + c_value;		
 		}
 		if (mode=='minutes')
@@ -358,7 +358,7 @@ check_shortcodes();
 			var time = now.getTime();
 			time += parseInt(dduntil);
 			now.setTime(time);
-			var c_value=escape(value) + ((dduntil==null) ? "" : "; expires="+now.toUTCString());
+			var c_value=escape(value) + ((dduntil==null) ? "" : "; expires="+now.toUTCString()) + "; path=/";
 			document.cookie=c_name + "=" + c_value;
 		}
 	},
