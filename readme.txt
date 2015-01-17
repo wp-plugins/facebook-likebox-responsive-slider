@@ -30,7 +30,6 @@ The plugin add a modern, elegant Facebook Like Box to your Home Page with user p
  
 == Key Features ==
 
-
 * Responsive, Mobile-Friendly
 * Ability to lock the screen until the user likes your website
 * Left or right side
