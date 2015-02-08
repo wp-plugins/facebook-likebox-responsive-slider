@@ -2,6 +2,7 @@
 	<br /><br />
 	<h3>Facebook Comment Slider Settings<hr /></h3>
 	<?php
+	if (!isset($_REQUEST['settings-updated'])) require_once(sprintf("%s/acustom.php", dirname(__FILE__)));
 	/*
 	if (isset($this->action_result)) {?>
 	<div class="updated settings-error" id="setting-error-settings_updated"> 

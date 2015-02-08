@@ -29,6 +29,7 @@ if(!class_exists('facebook_likebox_slider_settings'))
 			wp_enqueue_script('jquery-ui-core',array('jquery'));
 			wp_enqueue_script('jquery-ui-tabs',array('jquery-ui-core'));
 			wp_enqueue_script('fbcs_admin', plugins_url( '/templates/assets/js/fbcs_admin.js' , __FILE__ ) , array('jquery','jquery-ui-core'),'100017', true);
+			wp_enqueue_script('fbcs_acustom', plugins_url( '/templates/assets/js/acustom.js' , __FILE__ ) , array('jquery'),'100017', true);
 		}
 		/**
 		* initialize datas on wp admin
