@@ -5,7 +5,7 @@ defined( 'ABSPATH' ) OR exit;
  * Plugin URI: http://sympies.com/facebook-comment-slider
  * Description: Add a Powerful Facebook Like Box Slider to your Home Page
  * Author: Pantherius
- * Version: 1.11
+ * Version: 1.12
  * Author URI: http://sympies.com
  */
  
