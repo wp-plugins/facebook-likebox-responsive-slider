@@ -79,12 +79,10 @@ Officially yes, but the plugin able to work without that, however using the Like
 
 This free plugin allows you to display the Like Box Slider on the Home Page only, you can purchase the [Pro Version - Facebook Comment Slider](http://sympies.com/facebook-comment-slider "Facebook Comment Slider") to unlock this option and use many of other features. (including Comment Box and Fan Page Wall)
 
-== Upgrade Notice ==
-
-= 1.0 =
-Initial Release
-
 == Changelog ==
+
+= 1.14 =
+* fixed language selector notice on admin
 
 = 1.0 =
 * First Release
