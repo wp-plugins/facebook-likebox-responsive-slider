@@ -28,7 +28,7 @@ The plugin add a modern, elegant Facebook Like Box to your Home Page with user p
   = Languages =
  The Facebook Like Box Responsive Slider supports more than 70 languages, sure you will find the best that can fit to your website.
  
-  == Pro Version Features ==
+  = Pro Version Features =
   [Facebook Comment Slider for WordPress](http://codecanyon.net/item/facebook-comment-slider-for-wordpress/5166547?ref=pantherius) provides advanced solution to implement Facebook to your website. Offers Facebook Comment Box, Fan Page Wall and Like Box in one professional plugin to get much more exposure on the one of the biggest social network.
  
 == Key Features ==
