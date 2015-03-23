@@ -4,7 +4,7 @@
 * description: Display a Like Box on the Home Page of your website
 * version: 1.0
 * author: Pantherius
-* website: http://sympies.com
+* website: http://pantherius.com
 *
 * release date: 24-10-2014
 **********************************/ 
@@ -21,7 +21,7 @@ if ( typeof flb_params !== 'undefined')
     init : function(options) {
 	defaults = { 
 			"appid":"000000000000000",					//Facebook APP ID
-			"fbsitename":"sympies",						//Facebook Fan Page name without http://facebook.com/
+			"fbsitename":"pantherius",					//Facebook Fan Page name without http://facebook.com/
 			"home_page_style":"",						//turn Comment Slider to Like Box or Fan Page Wall on the homepage - likebox or postbox
 			"currentstyle":"",							//set it to 'home' on the homepage if you using the home_page_style option - home or empty
 			"hide_icon":"false",						//hide all icons, you can combine it with the auto open option - true or false

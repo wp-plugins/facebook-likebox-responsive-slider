@@ -2,11 +2,11 @@
 defined( 'ABSPATH' ) OR exit;
 /**
  * Plugin Name: Facebook Likebox Slider
- * Plugin URI: http://sympies.com/facebook-comment-slider
+ * Plugin URI: http://pantherius.com/facebook-comment-slider
  * Description: Add a Powerful Facebook Like Box Slider to your Home Page
  * Author: Pantherius
- * Version: 1.15
- * Author URI: http://sympies.com
+ * Version: 1.16
+ * Author URI: http://pantherius.com
  */
  
 if(!class_exists('facebook_likebox_slider'))

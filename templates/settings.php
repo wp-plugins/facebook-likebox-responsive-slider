@@ -21,7 +21,7 @@
 		</ul>
 	<div id="facebook_likebox_slider_settings">
 			<p>    
-			This version is add the Like Box to the Home Page only.<br>If you would like to use it on any Page/Post with Comments Box and Fan Page Wall, you can use the <a href="http://sympies.com/facebook-comment-slider/?utm_source=wordpress.org&utm_medium=free%20version&utm_campaign=Facebook%20Like%20Box%20Slider">Pro Version.</a>
+			This version is add the Like Box to the Home Page only.<br>If you would like to use it on any Page/Post with Comments Box and Fan Page Wall, you can use the <a href="http://pantherius.com/facebook-comment-slider/?utm_source=wordpress.org&utm_medium=free%20version&utm_campaign=Facebook%20Like%20Box%20Slider">Pro Version.</a>
 			<form method="post" action="options.php#facebook_likebox_slider_settings"> 
 					<?php @settings_fields('facebook_likebox_slider-group'); ?>
 					<?php @do_settings_fields('facebook_likebox_slider-group'); ?>
@@ -38,12 +38,12 @@
 					<?php @do_settings_fields('facebook_likebox_slider_comment_box-group'); ?>
 					<?php do_settings_sections('facebook_likebox_slider_comment_box'); ?>
 				</form>
-			<div class="pro-version-div">Facebook Comment Box is a Pro Version Feature. <br><a href="http://sympies.com/facebook-comment-slider/?utm_source=wordpress.org&utm_medium=free%20version&utm_campaign=Facebook%20Like%20Box%20Slider">View the Pro Version here.</a></div>
+			<div class="pro-version-div">Facebook Comment Box is a Pro Version Feature. <br><a href="http://pantherius.com/facebook-comment-slider/?utm_source=wordpress.org&utm_medium=free%20version&utm_campaign=Facebook%20Like%20Box%20Slider">View the Pro Version here.</a></div>
 			</p>
 	</div>
 	<div id="facebook_likebox_slider_like_box">
 			<p>
-			This version is add the Like Box to the Home Page only.<br>If you would like to use it on any Page/Post with Comments Box and Fan Page Wall, you can use the <a href="http://sympies.com/facebook-comment-slider/?utm_source=wordpress.org&utm_medium=free%20version&utm_campaign=Facebook%20Like%20Box%20Slider">Pro Version.</a><br>Facebook Page Name is required on the <a class="open-tab" href="#facebook_likebox_slider_settings">Settings tab</a>
+			This version is add the Like Box to the Home Page only.<br>If you would like to use it on any Page/Post with Comments Box and Fan Page Wall, you can use the <a href="http://pantherius.com/facebook-comment-slider/?utm_source=wordpress.org&utm_medium=free%20version&utm_campaign=Facebook%20Like%20Box%20Slider">Pro Version.</a><br>Facebook Page Name is required on the <a class="open-tab" href="#facebook_likebox_slider_settings">Settings tab</a>
 				<form method="post" action="options.php#facebook_likebox_slider_like_box"> 
 					<?php @settings_fields('facebook_likebox_slider_like_box-group'); ?>
 					<?php @do_settings_fields('facebook_likebox_slider_like_box-group'); ?>
@@ -60,12 +60,12 @@
 					<?php do_settings_sections('facebook_likebox_slider_post_box'); ?>
 				</form>
 			</p>
-			<div class="pro-version-div">Facebook Fan Page Wall is a Pro Version Feature. <br><a href="http://sympies.com/facebook-comment-slider/?utm_source=wordpress.org&utm_medium=free%20version&utm_campaign=Facebook%20Like%20Box%20Slider">View the Pro Version here.</a></div>
+			<div class="pro-version-div">Facebook Fan Page Wall is a Pro Version Feature. <br><a href="http://pantherius.com/facebook-comment-slider/?utm_source=wordpress.org&utm_medium=free%20version&utm_campaign=Facebook%20Like%20Box%20Slider">View the Pro Version here.</a></div>
 	</div>
 		<div id="plugin_directory">
 		<p>
 			<p>    
-			<iframe src="http://sympies.com/static/plugin_directory.html"></iframe>
+			<iframe src="http://pantherius.com/static/plugin_directory.html"></iframe>
 			</p>
 		</p>
 

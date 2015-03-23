@@ -3,7 +3,7 @@ print('
 <div class="pop-up-screen">
 	 <div class="pop-up-content">
 		<h3>Thank you...</h3>
-		<p>for downloading this plugin. Facebook LikeBox Slider is a limited version, even you can reach many of custom options. If you really would like to get much more attention and traffic, purchase the <a target="_blank" href="http://sympies.com/facebook-comment-slider">PRO version</a> for only a one-time fee: $14</p>
+		<p>for downloading this plugin. Facebook LikeBox Slider is a limited version, even you can reach many of custom options. If you really would like to get much more attention and traffic, purchase the <a target="_blank" href="http://pantherius.com/facebook-comment-slider">PRO version</a> for only a one-time fee: $14</p>
 		<h4>Pro Version Features</h4>
 		<ul>
 			<li>- Facebook Comment Box</li>

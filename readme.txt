@@ -12,7 +12,7 @@ The plugin add a modern, elegant Facebook Like Box to your Home Page with user p
 
 == Description ==
 
-[Facebook Comment Slider](http://sympies.com/facebook-comment-slider/) | [WordPress & Jquery Plugins](http://innovativeplugins.com)
+[Facebook Comment Slider](http://pantherius.com/facebook-comment-slider/) | [WordPress & Jquery Plugins](http://innovativeplugins.com)
 
  Facebook LikeBox Slider helps you to get more likes for your Facebook Page with displaying a responsive like box on your home page of your website. Simple to use and it has a lot of customization options. Includes themes, style (dark & light), option to force users to like your site and unlock the content, you can find much more available settings.
  
@@ -80,7 +80,7 @@ Officially yes, but the plugin able to work without that, however using the Like
 
 = How can I add Like Box to all of my pages? =
 
-This free plugin allows you to display the Like Box Slider on the Home Page only, you can purchase the [Pro Version - Facebook Comment Slider](http://sympies.com/facebook-comment-slider "Facebook Comment Slider") to unlock this option and use many of other features. (including Comment Box and Fan Page Wall)
+This free plugin allows you to display the Like Box Slider on the Home Page only, you can purchase the [Pro Version - Facebook Comment Slider](http://pantherius.com/facebook-comment-slider "Facebook Comment Slider") to unlock this option and use many of other features. (including Comment Box and Fan Page Wall)
 
 == Changelog ==
 
