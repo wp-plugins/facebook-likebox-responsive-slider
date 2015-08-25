@@ -11,8 +11,7 @@ print('
 			<li>- Optional Notification Emails</li>
 			<li>- Add Like Box to any Pages/Posts</li>
 			<li>- Hide the bottom line \'Powered By\' text</li>
-			<li>- Free Support</li>
-			<li>- Free Updates</li>
+			<li>- Premium Support & Updates</li>
 		</ul>
 		<a class="close button button-default" href="#">Use Free Version</a>
 		<a class="close button button-primary" href="http://codecanyon.net/item/facebook-comment-slider-for-wordpress/5166547?ref=pantherius">Purchase PRO Version - $14</a>
